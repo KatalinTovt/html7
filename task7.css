@@ -1,0 +1,849 @@
+@import url(fonts7.css);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-width: fit-content;
+}
+.header{
+  width: 100%;
+  height: 120px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.other{
+  display: none;
+}
+.header-logo{
+margin-top: 5px;
+}
+.slider{
+  width: 1440px;
+  height: 570px;
+  margin: 0 auto;
+  display: flex;
+}
+.sliderLeft{
+width: 50%;
+height: 100%;
+background-image: url(./image/philip-martin-5aGUyCW_PJw-unsplash.png);
+background-repeat: no-repeat;
+background-size: contain;
+}
+.sliderRight{
+  width: 50%;
+height: 100%;
+background-color: black;
+}
+.sliderHead{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 110px;
+}
+.sliderDate{
+  font-family: 'kanit light';
+  color: white;
+  letter-spacing: 7px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+.sliderLifstyle{
+  font-family: 'kanit light';
+  color: white;
+  font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+.sliderHeader{
+  font-family: 'kanit regular';
+    color: white;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 67px;
+    margin-right: 87px;
+    word-spacing: 6px;
+  
+}
+.sliderText{
+  font-family: 'kanit thin';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+    width: 460px;
+    height: 41px;
+    word-spacing: 5px;
+    margin-left: 104px;
+    margin-top: 27px;
+
+}
+.sliderButton{
+background-color:black;
+border: 1px solid white;
+border-radius: 0px;
+font-family: 'kanit light';
+color: white;
+width: 198px;
+height: 55px;
+margin-left: 108px;
+margin-top: 55px;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+word-spacing: 1px;
+}
+.featuredFlex{
+  display: flex;
+  height: 651px;
+  justify-content: center;
+}
+
+.featuredHeder{
+  padding: 60px 328px 31px;
+    font-family: 'kanit medium';
+    color: #1F1F1D;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.featuredLeft{
+  margin: 0 10px;
+}
+.featuredLeftImg{
+  width: 557px;
+height: 368px;
+}
+.date{
+    font-family: 'kanit light';
+    color: black;
+    letter-spacing: 6px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+  
+}
+.featuredDate{
+  
+}
+.lifestyle{
+  font-family: 'kanit medium';
+  color: black;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  
+}
+.dataLifestyleFlex{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.featuredLifestyle{
+  
+}
+.featuredBold{
+  font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'kanit medium';
+    width: 557px;
+    height: 72px;
+    word-spacing: 3.8px;
+    color: #1F1F1D;
+    margin-top: 29px;
+}
+.featuredText{
+  font-family: 'kanit light';
+  width: 557px;
+height: 54px;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+color: #1F1F1D;
+margin-top: 22px;
+}
+.featuredRight{
+  margin: 0 10px;
+}
+.featuredRightImg{
+  width: 557px;
+  height: 368px;
+}
+.x{
+  position: absolute;
+  top: 49px;
+  left: 202px;
+}
+.x1{
+  position: relative;
+  left: 28px;
+  top: 2px;
+}
+.other1{
+  position: relative;
+  left: 28px;
+  top: 2px;
+  display: none;
+  width: 24px;
+height: 19px;
+}
+.menu{
+  width: 344px;
+  height: 359px;
+  background-color: white;
+  position: absolute;
+  top: 105px;
+  left: 234px;
+  font-family: 'kanit medium' ;
+  text-decoration: underline;
+  font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding: 46px 63px;
+
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  margin: 4px;
+}
+.third{
+  display: flex;
+  height: 394px;
+  justify-content: space-evenly;
+  margin: 0 296px;
+}
+
+.thirdPhoto{
+  width: 363px;
+  height: 240px;
+}
+.thirdDate{
+  color: black;
+  letter-spacing: 6px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 21px;
+}
+.thirdLifestyle{
+}
+.textThird{
+  text-transform: uppercase;
+  font-family: 'kanit medium';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1F1F1D;
+  margin-top: 15px;
+  word-spacing: 2px;
+}
+.buttonThird{
+  width: 238px;
+  height: 42px;
+  background-color: #1F1F1D;
+  color: white;
+  border-radius: 0px;
+  font-family: 'kanit regular';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  word-spacing: 2px;
+}
+.four{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.fourPhotoL{
+
+  width: 571.5px;
+  height: 360px;
+ 
+}
+.fourRight{
+  width: 571.5px;
+  height: 360px;
+  background-color: black;
+}
+
+.fourButton{
+  background-color: black;
+    border: 1px solid white;
+    font-family: 'kanit regular';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+    width: 198px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 185px;
+  
+}
+.fourText{
+  color: white;
+  font-family: 'kanit regular';
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 51px;
+  text-align: center;
+  margin-top: 126px;
+  margin-bottom: 19px;
+}
+
+.interviwes{
+  height: 486px;
+}
+.interviwesData{
+  color: black;
+  letter-spacing: 6px;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 21px;
+  
+
+}
+
+
+.news{
+
+  height: 450px;
+
+}
+.newsHead{
+  padding: 46px 328px 31px;
+  font-family: 'kanit medium';
+  color: #1F1F1D;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.footer{
+  width: 100%;
+  height: 134px;
+  margin-top: 35px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.footerImg{
+  height: 32px;
+  width: 129px;
+  margin: auto;
+}
+.footerText{
+  font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'kanit light';
+    text-align: center;
+    color: #FFFFFF;
+   
+    word-spacing: 2px;
+}
+
+@media screen and (max-width: 1240px){
+.x{
+display: none;
+} 
+.x1{
+display: none;
+}
+.other{
+  display: block;
+  width: 24px;
+  height: 19px;
+  position: absolute;
+  top: 49px;
+  left: 53px;
+}
+.sliderHead{
+  margin-top: 126px;
+  margin-right: 109px;
+}
+
+.menu{
+  display: none;
+}
+.other:hover .menu{
+display: block;
+}
+.sliderLeft{
+  width: 48%;
+  background-size: auto;
+}
+.sliderRight{
+  width: 52%;
+}
+
+.sliderHeader{    
+  width: 422px;
+  margin: 35px 0 8px 105px;
+  text-align: justify;
+}
+.sliderText{
+    width: 371px;
+}
+
+.featuredHeder{
+  padding: 60px 0 20px 147px;
+}
+.featuredLeft{
+  width: 437px;
+  margin-right: 30px;
+
+}
+.featuredRight{
+  width: 437px;
+}
+.featuredLeftImg{
+  width: 455px;
+  height: 301px;
+}
+.featuredRightImg{
+  width: 456px;
+  height: 301px;
+}
+.featuredText1{
+ 
+    width: 400px;
+    word-spacing: 2px;
+}
+.featuredText2{
+
+  width: 401px;
+  word-spacing: 2px;
+}
+.third {
+  margin: -23px 121px;
+}
+.thirdPhoto {
+  width: 295px;
+  height: 195px;
+}
+
+.textThird1{
+  
+    width: 273px;
+}
+.textThird3{
+
+  width: 277px;
+}
+
+.four{
+  margin-top: 70px;
+}
+.fourPhotoL{
+  width: 464px;
+  height: 360px;
+ 
+}
+.fourRight{
+  width: 471px;
+}
+.fourPhotoR{
+ 
+  height: 360px;
+ 
+}
+.fourText{
+ 
+  letter-spacing: 1px;
+ 
+}
+.fourButton{
+  margin-left: 132px;
+}
+.interviwesHeader{
+  padding: 33px 0 47px 147px;
+}
+.interviwes {
+  height: 451px;
+}
+
+.interviwesText1{
+    width: 300px;
+}
+.interviwesText3{
+  width: 295px;
+}
+
+.newsOne{
+  margin: 23px 0;
+}
+.newsTwo{
+  margin: 23px 7px 0 29px;
+}
+.newsThree{
+  margin: 23px 19px;
+}
+
+.newHead{
+  padding: 60px 0 42px 150px;
+}
+.newsPhoto1{
+  width: 325px;
+}
+
+.footer{
+  width: 100%;
+  height: 152px;
+   
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+.header{
+  width: 100%;
+height: 65px;
+}
+.dataLifestyleFlex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.header-logo img {
+  width: 103px;
+  margin: 9px;
+  margin-left: -11px;
+}
+
+.other {
+  display: block;
+  width: 24px;
+  height: 19px;
+  position: absolute;
+  top: 23px;
+  left: 23px;
+}
+.slider{
+  width: 100%;
+  height: 416px;
+}
+.sliderLeft{
+  background-size: cover;
+  width: 50%;
+  height: 85%;
+}
+.sliderRight {
+  width: 50%;
+  height: 85%;
+}
+.sliderDate{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
+.sliderHead {
+  margin-top: 72px;
+  margin-right: 192px;
+}
+.sliderLifstyle{
+display: none;
+}
+.sliderHeader{
+  font-size: 18px;
+  line-height: 27px;
+  word-spacing: 2px;
+  margin: 23px 0 8px 22px;
+}
+.sliderText{
+  font-size: 12px;
+  line-height: 18px;
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 343px
+}
+.sliderButton
+{
+  margin-left: 22px;
+  margin-top: 44px;
+  width: 198px;
+height: 40px;
+}
+.featured{
+  height: 525px;
+}
+.featuredHeder {
+  padding: 0 0 20px 23px;
+}
+.featuredLeft{
+  width: 45%;
+  margin-left: 48px;
+}
+.featuredLeftImg{
+  width: 345px;
+    height: 228px;
+  
+}
+.featuredRight{
+  width: 45%;
+ margin-right: 48px;
+}
+.featuredRightImg{
+  width: 345px;
+  height: 228px;
+
+}
+.featuredDate{
+  font-size: 12px;
+line-height: 18px;
+letter-spacing: 6px;
+}
+.featuredBold{
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 6px;
+}
+.featuredBold1{
+  margin-top: 6px;
+  width: 400px;
+  
+}
+.featuredBold2{
+  width: 400px;
+
+}
+.featuredText{
+  font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+margin-top: 4px;
+}
+.featuredText1{
+  width: 317px;
+
+}
+.featuredText2{
+
+  width: 312px;
+}
+.third {
+  margin: -23px 0px;
+  height: 315px;
+}
+.textThird {
+  width: 221px;
+  font-size: 16px;
+  margin-top: 8px;
+}
+.thirdPhoto {
+  width: 220px;
+  height: 145px;
+}
+.blockthird{
+  width: 220px;
+}
+.four{
+  height: 319px;
+}
+.fourPhotoL {
+  width: 47%;
+    height: 275px;
+    margin-left: 1px;
+    margin-top: -8px;
+}
+.fourRight {
+  width: 46%;
+  height: 275px;
+  margin-top: -8px;
+}
+.fourText {
+  letter-spacing: 1px;
+  font-size: 17px;
+  margin-top: 81px;
+}
+.fourButton {
+  margin-left: 77px;
+}
+.interviwes {
+  height: 353px;
+}
+.interviwesHeader{
+  padding: 3px 0 53px 23px;
+}
+.newsHead{
+  margin: 29px 1px;
+  padding: 2px 0 0px 24px;
+}
+
+.newButton {
+  margin-bottom: 34px;
+  margin-top: -15px;
+}
+.blockNews{
+  width: 200px;
+}
+}
+
+@media screen and (max-width: 320px){
+.slider{
+  display: flex;
+  flex-direction: column;
+  height: 540px;
+}
+.sliderHead {
+  margin-top: 18px;
+  margin-right: 136px;
+}
+.sliderHeader {
+  font-size: 17px;
+  line-height: 27px;
+  word-spacing: 2px;
+  margin: 20px 0 7px 17px;
+}
+.sliderText {
+  font-size: 11px;
+  line-height: 18px;
+}
+.sliderButton{
+  margin-left: 13px;
+  margin-top: 32px;
+}
+.header{
+  width: 100%;
+}
+.sliderLeft{
+  width: 100%;
+  height: 294px;
+}
+.sliderRight{
+  width: 100%;
+  height: 246px;
+}
+.featured {
+  height: 1000px;
+}
+.featuredFlex{
+  display: flex;
+  flex-direction: column;
+}
+.featuredLeft {
+  width: 100%;
+  margin-left: 0;
+  margin-top: 159px;
+  margin-left: 10px;
+}
+.featuredRight{
+  width: 100%;
+  margin-top: 38px;
+}
+.featuredBold1 {
+  margin-top: 6px;
+  width: 100%;
+}
+.featuredBold2 {
+  width: 100%;
+}
+.featuredText {
+  width: 100%;
+}
+.featuredLifestyle{
+  display: none;
+}
+.featuredLeftImg , .featuredRightImg, .thirdPhoto {
+  width: 100%;
+  height: 195px;
+}
+.featuredHeder {
+  padding: 44px 0 0px 12px;
+}
+.third {
+  margin: -139px 14px;
+  width: 100%;
+  height: 931px;
+  display: flex;
+  flex-direction: column;
+}
+.blockthird {
+  width: 100%;
+}
+.dataLifestyleFlex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 13px;
+  width: 92%;
+}
+.textThird{
+  width: 100%;
+}
+.btn{
+  margin: 141px 4px 39px;
+}
+.four {
+  height: 420px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.fourPhotoL {
+  width: 100%;
+  height: 245px;
+  margin-left: 1px;
+  margin-top: -25px;
+}
+.fourRight {
+  width: 100%;
+  height: 175px;
+  margin-top: -16px;
+}
+.fourText {
+  letter-spacing: 1px;
+  font-size: 17px;
+  margin-top: 27px;
+}
+.fourButton {
+  margin-left: 22px;
+}
+.interviwesHeader {
+  padding: 21px 0 124px 11px;
+}
+.btnInt{
+  margin: -43px 4px 0;
+}
+.interviwes {
+  height: 1000px;
+}
+.newDiv{
+  margin: -49px 13px;
+}
+.newsHead {
+  margin: 41px 1px;
+  padding: 2px 0 0px 10px;
+}
+.newsTwo{
+margin-left: 0px;
+margin-top: 9px;
+}
+.newsThree{
+margin-left: 0px;
+margin-top: 9px;
+}
+.btnNew{
+  margin: -45px 0;
+}
+}
