@@ -4,9 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  min-width: fit-content;
-}
+
 .header{
   width: 100%;
   height: 120px;
@@ -34,11 +32,13 @@ background-image: url(./image/philip-martin-5aGUyCW_PJw-unsplash.png);
 background-repeat: no-repeat;
 background-size: contain;
 }
+
 .sliderRight{
   width: 50%;
 height: 100%;
 background-color: black;
 }
+
 .sliderHead{
   display: flex;
   justify-content: space-around;
@@ -69,7 +69,6 @@ line-height: 24px;
     line-height: 42px;
     text-align: center;
     margin-top: 67px;
-    margin-right: 87px;
     word-spacing: 6px;
   
 }
@@ -367,6 +366,9 @@ display: none;
 .x1{
 display: none;
 }
+body{
+  min-width: fit-content;
+}
 .other{
   display: block;
   width: 24px;
@@ -517,6 +519,9 @@ display: block;
 
 
 @media screen and (max-width: 768px){
+  body{
+    min-width: fit-content;
+  }
 .header{
   width: 100%;
 height: 65px;
